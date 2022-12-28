@@ -1,0 +1,44 @@
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section {
+    width: 95vw;
+  }
+}
+
+.menu {
+  padding: 5rem 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.underline {
+  width: 5rem;
+  height: 0.25rem;
+  background: var(--clr-gold);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+}
+
+.photo {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  border: 0.25rem solid var(--clr-gold);
+  border-radius: var(--radius);
+  display: block;
+}
